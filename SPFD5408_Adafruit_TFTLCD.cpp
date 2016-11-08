@@ -41,6 +41,8 @@
 #define ID_9341    2
 #define ID_HX8357D    3
 #define ID_UNKNOWN 0xFF
+#define INVERTCOLOR //added this fro arduino mega compatibility, without this the colors would be inverted try removing this
+			// if you find the colors get inverted
 
 #include "registers.h"
 
@@ -483,6 +485,9 @@ void Adafruit_TFTLCD::setLR(void) {
 // bounds.  'len' is inclusive, MUST be >= 1.
 void Adafruit_TFTLCD::flood(uint16_t color, uint32_t len) {
   uint16_t blocks;
+  #ifdef INVERTCOLOR
+  color = ~color;
+  #endif
   uint8_t  i, hi = color >> 8,
               lo = color;
 
