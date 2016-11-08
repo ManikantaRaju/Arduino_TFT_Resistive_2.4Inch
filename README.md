@@ -1,9 +1,7 @@
+
+This is a frok of the original library https://github.com/JoaoLopesF/SPFD5408
+
 #SPFD5408 Library
-	Author: Joao Lopes
-	Versions: 
-		0.9.0 - Beta 1: First public beta - 18/07/15
-		0.9.1 - Beta 2: Now works on Mega boards - 19/07/15
-		0.9.2 - Beta 3: Now works no Leornardo too - 29/07/15
 
 This library is the Adafruit TFT Libraries changed to works in TFT 2.4 shields with the SPFD5408 controller.
 Tested on Arduino Uno, Leonardo and Mega. See it on action in: https://www.youtube.com/watch?v=Q8WvEjXvAws
@@ -25,8 +23,8 @@ several things can happen :
 After trying for several days trying the solutions I found on the web, and none works 100%.
 So I decided to do an library specific to this controller.
 
-I changed the Adafruit libraries for TFT: GFX , TFTLCD and TouchScreen.
-I join all in this one library, the library SPFD5408, to avoid problems with duplicate libraries 
+Changed the Adafruit libraries for TFT: GFX , TFTLCD and TouchScreen.
+Joined all in this one library, the library SPFD5408, to avoid problems with duplicate libraries 
 and enables also have the original library Adafruit ready for use in other projects with another TFT hardware.
  
 
@@ -41,13 +39,8 @@ ATTENTION:
 Due to variations in Chinese shields with some controller,
 there is no guarantee that will work for everyone.
 
-I test with success in my www.mcufriend.com TFTs, plugged in Uno, Leonardo and Mega Arduino boards.
+Tested with success in my www.mcufriend.com TFTs, plugged in Uno, Leonardo and Mega Arduino boards.
 
-I’ll try a more suppliers in aliexpress to test more variations.
-
-Please let me know if this happens.
-
-Also please send me feedback, problems or suggestions.
 
 INSTALATION:
 
