@@ -1,5 +1,5 @@
 
-This is a frok of the original library https://github.com/JoaoLopesF/SPFD5408
+This is a fork of the original library https://github.com/JoaoLopesF/SPFD5408
 
 #SPFD5408 Library
 
